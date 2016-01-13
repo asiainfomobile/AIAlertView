@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AIAlertView"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "Beautiful Alert View. Written in Swift"
   s.homepage     = "https://github.com/asiainfomobile/AIAlertView"
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "nicolas tinkl" => "nicolastinkl@gmail.com" }
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
-  s.source       = { :git => "https://github.com/asiainfomobile/AIAlertView.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/asiainfomobile/AIAlertView.git", :tag => "1.0.7" }
   s.source_files  = "*.swift" 
   s.requires_arc = true
 end

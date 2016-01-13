@@ -536,9 +536,9 @@ class AIAlertViewStyleKit : NSObject {
         crossShapePath.moveToPoint(CGPointMake(10, 70))
         crossShapePath.addLineToPoint(CGPointMake(70, 10))
         crossShapePath.moveToPoint(CGPointMake(10, 10))
-        crossShapePath.addLineToPoint(CGPointMake(70, 70))
-        crossShapePath.lineCapStyle = kCGLineCapRound
-        crossShapePath.lineJoinStyle = kCGLineJoinRound
+        crossShapePath.addLineToPoint(CGPointMake(70, 70))        
+        crossShapePath.lineCapStyle = CGLineCap.Round// kCGLineCapRound
+        crossShapePath.lineJoinStyle = CGLineJoin.Round// kCGLineJoinRound
         UIColor.whiteColor().setStroke()
         crossShapePath.lineWidth = 14
         crossShapePath.stroke()
